@@ -56,11 +56,35 @@ li{
     width: 100%;
 }
 
-.mission-container h1, h4 {
+h1, h4 {
     margin: 10px auto;
 }
 /* Tea of the Month*/
 
+.month{
+    display: flex;
+    flex-direction: column;
+    margin: 60px auto;
+    max-width: 1000px;
+}
+
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.month-card img {
+    height: 200px;
+    width: 300px;
+}
 /*Locations*/
+
+.location{
+    height: 500px;
+    background-image: url("imgs/img-locations-background.jpg");
+}
+
 
 /* Footer */
