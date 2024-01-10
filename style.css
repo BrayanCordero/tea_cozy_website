@@ -45,7 +45,6 @@ li{
     background-position: center center;
     display: flex;
     align-items: center;
-    justify-content: center;
     margin: 0 50px;
 }
 
@@ -71,7 +70,7 @@ h1, h4 {
 .card{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin-top: 15px;
 }
 
@@ -82,9 +81,41 @@ h1, h4 {
 /*Locations*/
 
 .location{
-    height: 500px;
+    min-height: 500px;
     background-image: url("imgs/img-locations-background.jpg");
+    margin: 0 50px;
+    background-size:cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+}
+
+.location-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.location-card{
+    background-color: black;
+    width: 300px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    margin: 15px 20px;
+    opacity: 1;
 }
 
 
+/*Contact*/
+
+.contact{
+    min-height: 200px;
+    width: 100%;
+}
+
 /* Footer */
+.footer{
+    margin-left: 20px;
+    text-align: left;
+}
