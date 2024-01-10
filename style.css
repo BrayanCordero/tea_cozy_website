@@ -10,6 +10,14 @@ div{
     display: block;
 }
 
+a:hover{
+    cursor: pointer;
+    color: lightblue;
+}
+
+a:active{
+    color: white;
+}
 
 /* Header */
 .header{
